@@ -19,7 +19,8 @@
 
 using namespace std;
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+int main()
+{
+    cout << "Everything Still Works!" << endl;
     return 0;
 }

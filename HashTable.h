@@ -20,4 +20,22 @@
 #ifndef PROJECT_5_HASHTABLE_H
 #define PROJECT_5_HASHTABLE_H
 
+// Entry Class -> which is a node for the linked list
+// HashTable Class -> a bunch of entries and if collision than you make a pointer to a new node
+// >> HashTable is just an array of hashtable
+// each node has number of collisions an hastable inside of it
+
+#include <fstream>
+#include <string>
+#include <iostream>
+using namespace std;
+
+class HashTable
+{
+    HashTable();
+    ~HashTable();
+};
+
+
+
 #endif //PROJECT_5_HASHTABLE_H
